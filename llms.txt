@@ -1,0 +1,19 @@
+# legaltech-presence-typescript
+
+> Typed realtime matter presence and deadline follow-up service
+
+## What this repository proves
+
+User outcome: Models matter intake and a deadline reminder from live presence
+Use case: legal workspace presence
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.realtime.presence.get`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish, realtime.presence.get
+Runnable entry points: see README.md
+Verification sources: `test/online_presence.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

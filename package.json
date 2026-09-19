@@ -1,0 +1,12 @@
+{
+  "name": "legaltech-presence-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/online_presence.ts",
+    "test": "node --experimental-strip-types test/online_presence.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.6.3" }
+}
